@@ -1,0 +1,20 @@
+Cevap1 
+SELECT * FROM country
+Where country like 'A%a'
+
+
+Cevap2
+SELECT * FROM country
+Where country like '_____%n'
+
+
+
+Cevap3
+SELECT title FROM film
+where title ilike '%t%t%t%t%'
+
+
+
+Cevap4
+SELECT * From film
+where (title like 'C%' and length >90 and rental_rate =2.99);
